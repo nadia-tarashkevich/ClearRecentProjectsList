@@ -28,7 +28,7 @@
     </extensions>
 
     <actions>
-        <action class="org.jetbrains.support.ClearRecentProjectsList.ClearRecentProjectsListAction"
+        <action class="org.support.jetbrains.ClearRecentProjectsList.ClearRecentProjectsListAction"
                 description="Clear recent projects list"
                 id="ClearRecentProjectsList" icon="CollaborationToolsIcons.Delete"
                 text="Clear recent projects list">

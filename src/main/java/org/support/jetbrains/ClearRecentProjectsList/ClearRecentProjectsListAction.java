@@ -1,4 +1,4 @@
-package org.jetbrains.support.ClearRecentProjectsList;
+package org.support.jetbrains.ClearRecentProjectsList;
 
 import com.intellij.icons.AllIcons;
 import com.intellij.ide.RecentProjectsManager;
@@ -23,6 +23,7 @@ public class ClearRecentProjectsListAction extends AnAction {
     @Override
     public void actionPerformed(@NotNull AnActionEvent anActionEvent) {
 
+        throw new RuntimeException("Condition is not met");/*
         int amSure = Messages.showYesNoDialog(REALLY_WANT,
                 NAME,
                 AllIcons.Actions.DeleteTag);
@@ -45,7 +46,7 @@ public class ClearRecentProjectsListAction extends AnAction {
 
             // Show the notification
             Notifications.Bus.notify(notification, anActionEvent.getProject());
-        }
+        }*/
 
     }
 }
